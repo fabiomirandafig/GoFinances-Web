@@ -7,7 +7,6 @@ interface ContainerProps {
 export const Container = styled.div<ContainerProps>`
   background: #5636d3;
   padding: 30px 0;
-
   header {
     width: 1120px;
     margin: 0 auto;
@@ -15,6 +14,7 @@ export const Container = styled.div<ContainerProps>`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-weight: bold;
 
     nav {
       a {
